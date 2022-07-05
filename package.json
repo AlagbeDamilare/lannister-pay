@@ -1,0 +1,19 @@
+{
+  "name": "lannister-pay",
+  "version": "1.0.0",
+  "description": "Flutterwave Engineering Graduate Intern Technical Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Damilare Alagbe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "expressjs": "^1.0.1"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
