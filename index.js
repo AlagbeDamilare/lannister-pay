@@ -101,6 +101,10 @@ app.post("/split-payments/compute", (req, res) => {
   res.status(200).send(response);
 });
 
-const port = process.env.REST_PORT || 3000;
+const port = process.env.PORT || 3000;
 
-app.listen(port, () => console.log(`Server running on port ${port}`));
+const start = () => {
+  app.listen(port, () => console.log(`Server is listening on port ${port}...`));
+};
+
+start();
